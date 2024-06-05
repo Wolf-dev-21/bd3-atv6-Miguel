@@ -1,101 +1,90 @@
-const database = 'BD3-NoSQL-AtlasMongoDB';
-
-const collection = 'bd3-nosql-atv6';
-
-use(database);
-
-
-/*exemplos de inserção com o insert many*/
-
-db['bd3-nosql-atv6'].insertMany(
-    [
-    {
+[
+  {
     "nome": "Aluno 1",
     "cpf": 12345678901,
     "rg": 331608777,
-    "tel_aluno": 1198898-4377,
-    "tel_resp": 1198528-9571,
+    "tel_aluno": 11988984377,
+    "tel_resp": 11985289571,
     "email": "alunoteste1@gmail.com",
-    "data_nascimento": 21/11/2003,
+    "data_nascimento": 21112003
     },
     {
     "nome": "Aluno 2",
     "cpf": 48061733803,
     "rg": 382149579,
-    "tel_aluno": 1199793-1387,
-    "tel_resp": 1198841-9638,
+    "tel_aluno": 11997931387,
+    "tel_resp": 11988419638,
     "email": "alunoteste2@gmail.com",
-    "data_nascimento": 9/10/2007,
+    "data_nascimento": 9102007
     },
     
     {
     "nome": "Aluno 3",
     "cpf": 81336571802,
     "rg": 351455310,
-    "tel_aluno": 1197211-8821,
-    "tel_resp": 1198016-2772,
+    "tel_aluno": 11972118821,
+    "tel_resp": 11980162772,
     "email": "alunoteste3@gmail.com",
-    "data_nascimento": 4/5/2011,
+    "data_nascimento": 452011
     },
 
     {
     "nome": "Aluno 4",
     "cpf": 61194574882,
     "rg": 410895908,
-    "tel_aluno": 1196821-5623,
-    "tel_resp": 1199554-4189,
+    "tel_aluno": 11968215623,
+    "tel_resp": 11995544189,
     "email": "alunoteste4@gmail.com",
-    "data_nascimento": 21/11/2003,
+    "data_nascimento": 21112003
     },
 
     {
     "nome": "Aluno 5",
     "cpf": 25520491844,
     "rg": 395912015,
-    "tel_aluno": 1198894-5122,
-    "tel_resp": 1197944-9567,
+    "tel_aluno": 11988945122,
+    "tel_resp": 11979449567,
     "email": "alunoteste5@gmail.com",
-    "data_nascimento": 29/8/2011,
+    "data_nascimento": 2982011
     },
 
     {
     "nome": "Aluno 6",
     "cpf": 69191467896,
     "rg": 179738136,
-    "tel_aluno": 1198153-6384,
-    "tel_resp": 1198742-8845,
+    "tel_aluno": 11981536384,
+    "tel_resp": 11987428845,
     "email": "alunoteste6@gmail.com",
-    "data_nascimento": 14/4/2006,
+    "data_nascimento": 1442006
     },
 
     {
     "nome": "Aluno 7",
     "cpf": 30914767828,
     "rg": 476497735,
-    "tel_aluno": 1198912-8684,
-    "tel_resp": 1199208-1490,
+    "tel_aluno": 11989128684,
+    "tel_resp": 11992081490,
     "email": "alunoteste7@gmail.com",
-    "data_nascimento": 3/3/2011,
+    "data_nascimento": 332011
     },
 
     {
     "nome": "Aluno 8",
     "cpf": 84198134863,
     "rg": 471786147,
-    "tel_aluno": 1198067-1671,
-    "tel_resp": 1197987-2104,
+    "tel_aluno": 11980671671,
+    "tel_resp": 11979872104,
     "email": "alunoteste8@gmail.com",
-    "data_nascimento": 27/9/2009,
+    "data_nascimento": 2792009
     },
 
     {
     "nome": "Aluno 9",
     "cpf": 78087845838,
     "rg": 274557137,
-    "tel_aluno": 1198852-4863,
-    "tel_resp": 1196822-3812,
+    "tel_aluno": 11988524863,
+    "tel_resp": 11968223812,
     "email": "alunoteste9@gmail.com",
-    "data_nascimento": 21/8/2008,
-    },
-    ]
-);
+    "data_nascimento": 2182008
+    }
+  ]
